@@ -1,0 +1,33 @@
+{
+  "name": "telegram-auto-promo-bot",
+  "version": "4.0.0",
+  "description": "Auto Promo Bot Ultimate V4 - Multi-account Telegram promotion bot with OTP auto-detect",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "setup": "node src/database.js --init"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "promo",
+    "auto",
+    "mtproto"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "big-integer": "^1.6.52",
+    "dotenv": "^16.4.0",
+    "grammy": "^1.30.0",
+    "input": "^1.0.1",
+    "telegram": "^2.24.0",
+    "winston": "^3.14.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
